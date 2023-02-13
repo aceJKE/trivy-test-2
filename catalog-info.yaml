@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test
+  description: some description
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: aceJKE/trivy-test-2
+spec:
+  type: service
+  owner: test
+  lifecycle: production
